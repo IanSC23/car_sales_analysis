@@ -4,7 +4,8 @@ import pandas as pd
 import plotly.express as px
 
 # Leemos datos y creamos DataFrame
-car_data = pd.read_csv('/Users/iansc/Documentos/vehicles_env/vehicles_us.csv')
+car_data = pd.read_csv(
+    '/Users/iansc/Documentos/DataAnalyst/GitHub/tripleten/sales_car_analysis/vehicles_us.csv')
 df = pd.DataFrame(car_data)
 
 st.title('Vehículos en venta')
